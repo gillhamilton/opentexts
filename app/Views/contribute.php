@@ -18,7 +18,6 @@
     <table class="table table-striped">
         <thead class="thead-dark">
             <tr>
-                <th scope=col">Column</th>
                 <th scope=col">Heading</th>
                 <th scope=col">Content</th>
                 <th scope=col">Requirement</th>
@@ -28,7 +27,6 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="row">1</th>
                 <td>organisation</td>
                 <td>Unique name of provider</td>
                 <td>MANDATORY</td>
@@ -46,7 +44,6 @@
                     The British Library</td>
             </tr>
             <tr>
-                <th scope="row">2</th>
                 <td>idLocal</td>
                 <td>Local identifier</td>
                 <td>MANDATORY</td>
@@ -57,7 +54,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">3</th>
                 <td>title</td>
                 <td>Title of the work</td>
                 <td>MANDATORY</td>
@@ -67,7 +63,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">4</th>
                 <td>urlMain</td>
                 <td>URL to access the item</td>
                 <td>MANDATORY</td>
@@ -78,7 +73,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">5</th>
                 <td>year</td>
                 <td>Year of publication</td>
                 <td>DESIRABLE</td>
@@ -88,8 +82,6 @@
                     MARC 260 $c - e.g. preferred to 1884 vs ca.1884). May be in <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/date">DC terms:date</a>
                 </td>
             </tr>
-            <tr>
-                <th scope="row">6</th>
                 <td>publisher</td>
                 <td>Publisher</td>
                 <td>DESIRABLE</td>
@@ -99,7 +91,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">7</th>
                 <td>creator</td>
                 <td>Creator</td>
                 <td>DESIRABLE</td>
@@ -109,7 +100,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">8</th>
                 <td>topic</td>
                 <td>Subject or topic</td>
                 <td>DESIRABLE</td>
@@ -118,7 +108,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">9</th>
                 <td>description</td>
                 <td>Description</td>
                 <td>DESIRABLE</td>
@@ -128,7 +117,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">10</th>
                 <td>urlPDF</td>
                 <td>URL of a PDF</td>
                 <td>OPTIONAL</td>
@@ -138,7 +126,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">11</th>
                 <td>urlOther</td>
                 <td>URL of other useful version(s)</td>
                 <td>OPTIONAL</td>
@@ -149,7 +136,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">12</th>
                 <td>urlIIIF</td>
                 <td>URL to a IIIF manifest</td>
                 <td>OPTIONAL</td>
@@ -157,7 +143,6 @@
                 <td>URL to a IIIF manifest</td>
             </tr>
             <tr>
-                <th scope="row">13</th>
                 <td>placeOfPublication</td>
                 <td>Place of publication</td>
                 <td>OPTIONAL</td>
@@ -165,7 +150,6 @@
                 <td>May be in <a href="https://www.loc.gov/marc/bibliographic/concise/bd260.html">MARC 260 $a</a> or <a href="https://www.loc.gov/marc/bibliographic/bd264.html">MARC 264 $a</a> or <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/coverage">DC terms:coverage</a></td>
             </tr>
             <tr>
-                <th scope="row">14</th>
                 <td>licence</td>
                 <td>Licence of the material</td>
                 <td>OPTIONAL</td>
@@ -177,7 +161,6 @@
                 </td>
             </tr>
             <tr>
-                <th scope="row">15</th>
                 <td>idOther</td>
                 <td>Other local or external ids</td>
                 <td>OPTIONAL</td>
@@ -185,7 +168,6 @@
                 <td>Other identifiers such as DOIs</td>
             </tr>
             <tr>
-                <th scope="row">16</th>
                 <td>catLink</td>
                 <td>A link directly to the item's catalogue record</td>
                 <td>OPTIONAL</td>
@@ -193,7 +175,6 @@
                 <td>A link to the item in your catalogue or discovery system</td>
 			</tr>
 			<tr>
-                <th scope="row">17</th>
                 <td>language</td>
                 <td>language of the resource</td>
                 <td>OPTIONAL</td>
